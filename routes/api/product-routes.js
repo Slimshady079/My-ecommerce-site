@@ -4,7 +4,6 @@ const { Product, Category, Tag, ProductTag } = require("../../models");
 // The `/api/products` endpoint
 
 // get all products
-// !!
 router.get("/", (req, res) => {
   // find all products
   Product.findAll({
